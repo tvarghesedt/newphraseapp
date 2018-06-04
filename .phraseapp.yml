@@ -7,7 +7,7 @@ phraseapp:
       params:
         file_format: csv
         update_translations: true
-        locale_id: 4a2e091f052365cb4678ca46bbf5ed69
+        locale_id: 161718c733ff2da2783843ebc083d39a
   pull:
     targets:
     - file: ./<locale_code>/pt-BR.<locale_name>.csv
@@ -15,10 +15,10 @@ phraseapp:
         file_format: csv
         tag: "pt-BR"
         update_translations: true
-        locale_id: 5e4308bf798357ce6de6d3433c5aee08
+        locale_id: 2e3d4d41213c1b65bf846cc4f51910b0
     - file: ./<locale_code>/secondsource.<locale_name>.csv
       params:
         file_format: csv
         tag: "secondsource"
         update_translations: true
-        locale_id: 5e4308bf798357ce6de6d3433c5aee08
+        locale_id: 2e3d4d41213c1b65bf846cc4f51910b0
