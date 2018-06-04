@@ -3,7 +3,7 @@ phraseapp:
   project_id: c7575f361d6775b7f83063dce1379d84
   push:
     sources:
-    - file: ./pt-BR/<tag>.csv
+    - file: ./pt-BR/<tag>.ptbr.csv
       params:
         file_format: csv
         update_translations: true
