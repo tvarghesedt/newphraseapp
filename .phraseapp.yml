@@ -1,24 +1,19 @@
 phraseapp:
   access_token: 250def7c4fce314e7489457175499b88927a5346e4338370ebc8ce961b78dba3
-  project_id: c5110801ef5d4b5faf63f53c22034bc1
+  project_id: da3265f4099b8d0b8419e858ea8660ca
   push:
     sources:
-    - file: ./pt-BR/<tag>.csv
+    - file: /var/www/vhosts/phraseapp/<locale_code>/*.csv
       params:
         file_format: csv
         update_translations: true
-        locale_id: 161718c733ff2da2783843ebc083d39a
   pull:
     targets:
-    - file: ./<locale_code>/pt-BR.<locale_name>.csv
+    - file: /var/www/vhosts/phraseapp/<locale_code>/pt-BR.csv
       params:
         file_format: csv
-        tag: "pt-BR"
         update_translations: true
-        locale_id: 2e3d4d41213c1b65bf846cc4f51910b0
-    - file: ./<locale_code>/secondsource.<locale_name>.csv
+    - file: /var/www/vhosts/phraseapp/<locale_code>/secondsource.csv
       params:
         file_format: csv
-        tag: "secondsource"
         update_translations: true
-        locale_id: 2e3d4d41213c1b65bf846cc4f51910b0
