@@ -14,11 +14,9 @@ phraseapp:
       params:
         file_format: csv
         tag: "pt-BR"
-        update_translations: true
         locale_id: 2e3d4d41213c1b65bf846cc4f51910b0
     - file: ./<locale_code>/secondsource.<locale_name>.csv
       params:
         file_format: csv
         tag: "secondsource"
-        update_translations: true
         locale_id: 2e3d4d41213c1b65bf846cc4f51910b0
